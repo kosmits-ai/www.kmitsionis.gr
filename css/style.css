@@ -1,0 +1,130 @@
+body {
+    background-color: #e7dfdfb8;; /* Cream/Ivory */
+    color: #333333; /* Charcoal Gray */
+    font-family: Calibri;
+}
+
+h2 {
+    background-image: url('../images/electrical.jpg');
+    background-size: 100%;
+    background-position: right right;
+    background-repeat: no-repeat;
+    color: #CCCCCC;
+    font-size: 2em;
+    font-family: 'Palatino Linotype', serif;
+    padding: 60px; /* Add padding to give space around the text */
+    text-align:center; /* Center the text horizontally */
+    width: 100%; /* Make the text span the entire width */
+    margin: 0; /* Remove default margin */
+}
+h3,h3.one,h5.two,h4.title{
+    text-align:center
+}
+
+h3.one,h5.two{
+    margin-bottom:2px;
+}
+
+
+nav {
+    background-color: #333333; /* Charcoal Gray */
+    color: #FFFFFF; /* White text on dark background for better contrast */
+    padding: 0.5em;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    background-color: #001F3F; /* Deep Blue */
+    color: #FFD700; /* Rich Gold */
+    text-align: center;
+    padding: 1em;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+
+p.moving-text{
+    background-color: black;
+    color:white ;
+    line-height: 0.9em;
+    font-family:Calibri;
+    animation: moveText 20s linear infinite;
+    position:absolute;
+}
+
+h3.one,h5.two{
+    margin:3px;
+}
+h3 a,h5 a{
+    text-decoration:none;
+    color:black;
+}
+
+img.center{
+    display:block;
+    margin:auto;
+    margin-top:20px;
+}
+
+p.mine{
+    text-align:center;
+}
+p.personal{
+    border: 5px solid #cccccc;
+    padding: 20px; 
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+}
+
+
+li{
+    list-style:inside circle;
+    padding:3px;
+    padding-left:2px;
+}
+
+.fields{
+    border: 5px solid #cccccc;
+    padding: 20px; 
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.language{
+    border: 5px solid #cccccc;
+    padding: 20px; 
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.certificates{
+    border: 5px solid #cccccc;
+    padding: 20px; 
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+h3.one,h4.title{
+    margin:2px;
+}
+h4.title{
+    color:black
+}
+h4,p.personal{
+    margin:3px;
+}
